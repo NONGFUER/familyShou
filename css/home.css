@@ -34,12 +34,12 @@
 	padding-top: 30px
 }
 
-.itemModule__root .itemModule__modernCardHeader .ebase-Switch__root {
+.itemModule__root .itemModule__modernCardHeader .fm-Switch__root {
 	float: right!important;
 	position: relative
 }
 
-.itemModule__root .itemModule__modernCardHeader .ebase-Switch__root:before {
+.itemModule__root .itemModule__modernCardHeader .fm-Switch__root:before {
 	content: " ";
 	position: absolute;
 	width: 1px;
@@ -49,20 +49,20 @@
 	top: 19px
 }
 
-.itemModule__root .itemModule__modernCardHeader .ebase-Switch__item {
+.itemModule__root .itemModule__modernCardHeader .fm-Switch__item {
 	position: relative;
 	margin-left: 20px
 }
 
-.itemModule__root .itemModule__modernCardHeader .ebase-Switch__activeItem:before {
+.itemModule__root .itemModule__modernCardHeader .fm-Switch__activeItem:before {
 	display: none
 }
 
-.itemModule__root .ebase-CommonFilter__filter .ebase-DatePicker__root .ebase-DatePicker__main {
+.itemModule__root .fm-CommonFilter__filter .fm-DatePicker__root .fm-DatePicker__main {
 	font-weight: 700
 }
 
-.itemModule__root .ebase-ModernDatePicker__root .ebase-ModernDatePicker__displayText {
+.itemModule__root .fm-ModernDatePicker__root .fm-ModernDatePicker__displayText {
 	min-width: 370px
 }
 
@@ -80,7 +80,7 @@
 	height: 300px
 }
 
-.itemModule__root .itemModule__pingjiaPlaceholder .ebase-Message__content {
+.itemModule__root .itemModule__pingjiaPlaceholder .fm-Message__content {
 	box-shadow: none
 }
 
@@ -101,19 +101,19 @@
 	padding: 0
 }
 
-.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root {
+.itemModule__root .itemModule__topBadPingjia .tableContainer .fm-Table__root {
 	height: 336px
 }
 
-.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root .ebase-Table__table .ebase-Table__th {
+.itemModule__root .itemModule__topBadPingjia .tableContainer .fm-Table__root .fm-Table__table .fm-Table__th {
 	padding: 8px 0
 }
 
-.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root .ebase-Table__table .GoodsTd {
+.itemModule__root .itemModule__topBadPingjia .tableContainer .fm-Table__root .fm-Table__table .GoodsTd {
 	width: 220px
 }
 
-.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root .ebase-Table__table .GoodsTd .ebase-GoodsTd__root .ebase-GoodsTd__goodsInfo {
+.itemModule__root .itemModule__topBadPingjia .tableContainer .fm-Table__root .fm-Table__table .GoodsTd .fm-GoodsTd__root .fm-GoodsTd__goodsInfo {
 	width: 162px
 }
 
@@ -126,3 +126,465 @@
 	animation-iteration-count: infinite
 }
 /* 主模块 end */
+/* 实时概况  start*/
+.fmcard-realtime-survey {
+	min-height: 282px
+}
+
+.fmcard-realtime-survey .updateTime {
+	color: #999
+}
+
+.fmcard-realtime-survey .fmui-card-header-wrapper {
+	border-bottom: none
+}
+
+.fmcard-realtime-survey .content {
+	width: 100%;
+	padding-bottom: 0;
+	min-height: 232px
+}
+
+.fmcard-realtime-survey .content .index-cell {
+	margin: 10px 0 16px
+}
+
+.fmcard-realtime-survey .content .index-cell .fmui-icon {
+	float: left;
+	font-size: 48px;
+	margin-right: 12px;
+	color: rgba(32, 98, 230, .6);
+	vertical-align: middle;
+	line-height: 1em
+}
+
+.fmcard-realtime-survey .content .index-cell .index-value-wrapper {
+	float: left
+}
+
+.fmcard-realtime-survey .content .index-cell .index-value-wrapper .index-value-title {
+	line-height: 20px
+}
+
+.fmcard-realtime-survey .content .index-cell .index-name {
+	font-size: 14px;
+	width: 100%;
+	height: 52px
+}
+
+.fmcard-realtime-survey .content .index-cell .index-value {
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+	width: 100%
+}
+
+.fmcard-realtime-survey .content .index-cell .compare-value {
+	color: #666;
+	line-height: 20px;
+	height: 20px;
+	width: 100%
+}
+
+.fmcard-realtime-survey .content .index-cell .compare-value .compare-name {
+	color: #999;
+	margin-right: 12px
+}
+
+.fmcard-realtime-survey .content .index-cell.uv .fmui-icon {
+	color: #fe7c24
+}
+
+.fmcard-realtime-survey .content .index-cell.pv .fmui-icon {
+	color: #f3d024
+}
+
+.fmcard-realtime-survey .content .index-cell.payOrdCnt .fmui-icon {
+	color: #00b3fe
+}
+
+.fmcard-realtime-survey .content .index-cell.payByrCnt .fmui-icon {
+	color: #00ba26
+}
+
+.fmcard-realtime-survey .content .index-cell.payByrCnt .sub-index-wrapper,
+.fmcard-realtime-survey .content .index-cell.payOrdCnt .sub-index-wrapper,
+.fmcard-realtime-survey .content .index-cell.pv .sub-index-wrapper,
+.fmcard-realtime-survey .content .index-cell.uv .sub-index-wrapper {
+	position: relative
+}
+
+.fmcard-realtime-survey .content .index-cell.payByrCnt .rank-value,
+.fmcard-realtime-survey .content .index-cell.payOrdCnt .rank-value,
+.fmcard-realtime-survey .content .index-cell.pv .rank-value,
+.fmcard-realtime-survey .content .index-cell.uv .rank-value {
+	position: absolute;
+	top: 0;
+	left: 114px
+}
+
+.fmcard-realtime-survey .content .index-cell.payByrCnt .rank-value .compare-name,
+.fmcard-realtime-survey .content .index-cell.payOrdCnt .rank-value .compare-name,
+.fmcard-realtime-survey .content .index-cell.pv .rank-value .compare-name,
+.fmcard-realtime-survey .content .index-cell.uv .rank-value .compare-name {
+	margin-right: 6px
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell {
+	float: left;
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 6px
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell .fmui-icon {
+	color: #2062e6
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell .index-name {
+	float: left;
+	width: auto
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell .sub-index-wrapper {
+	float: right;
+	width: auto
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell .index-value {
+	font-size: 24px
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell .index-value .fm-human-number {
+	font-size: 32px
+}
+
+.fmcard-realtime-survey .content .payAmt .index-cell .index-value .fm-human-number .fm-human-number-unit {
+	font-size: .375em
+}
+
+.fmcard-realtime-survey .content .legend {
+	margin-top: 10px;
+	line-height: 26px;
+	margin-right: 6px
+}
+
+.fmcard-realtime-survey .content .legend .square {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin-right: 4px
+}
+
+.fmcard-realtime-survey .content .legend .today {
+	margin-right: 20px
+}
+
+.fmcard-realtime-survey .content .legend .today .square {
+	background-color: #2062e6
+}
+
+.fmcard-realtime-survey .content .legend .compare .square {
+	background-color: #cecece
+}
+
+.fmcard-realtime-survey .content .part-left {
+	float: left;
+	width: 50%;
+	padding-right: 14px
+}
+
+.fmcard-realtime-survey .content .part-left .chart-container {
+	height: 114px
+}
+
+.fmcard-realtime-survey .content .part-left .chart-container .recharts-tooltip-wrapper {
+	z-index: 100
+}
+
+.fmcard-realtime-survey .content .part-left .chart-container .recharts-tooltip-wrapper .recharts-default-tooltip {
+	border: none!important;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, .1)
+}
+
+.fmcard-realtime-survey .content .part-left .chart-container .recharts-y-axis .recharts-cartesian-axis-ticks .recharts-cartesian-axis-tick:first-child {
+	display: none
+}
+
+.fmcard-realtime-survey .content .part-right {
+	float: right;
+	width: 50%;
+	padding-left: 14px
+}
+
+.fmcard-realtime-survey .content .part-right .index-cell {
+	float: left;
+	width: 50%;
+	height: 90px;
+	overflow: hidden
+}
+
+.fmcard-realtime-survey .content .part-right .index-cell:first-child,
+.fmcard-realtime-survey .content .part-right .index-cell:nth-child(2) {
+	margin-top: 6px
+}
+
+.fmcard-realtime-survey .content .part-right .index-cell:nth-child(2n) {
+	padding-left: 4%
+}
+
+@media (min-width:1480px) {
+	.fmcard-realtime-survey .content .part-left {
+		width: 54%;
+		padding-right: 30px
+	}
+	.fmcard-realtime-survey .content .part-right {
+		width: 44%;
+		padding-left: 30px
+	}
+}
+
+/* 店铺概况  start*/
+.fmcard-shop-survey {
+	width: 100%;
+	min-height: 282px;
+	height: 282px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .1)
+}
+
+.fmcard-shop-survey .updateTime {
+	color: #999
+}
+
+.fmcard-shop-survey .content {
+	height: 232px
+}
+
+.fmcard-shop-survey .fmui-card-title {
+	width: 150px;
+	height: 50px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.fmcard-shop-survey .fm-TooltipContent__root {
+	padding: 6px
+}
+
+.fmcard-shop-survey .fm-TooltipContent__root .fm-TooltipContent__legendContentList>li {
+	min-width: 60px
+}
+
+.fmcard-shop-survey .fm-TooltipContent__root .fm-TooltipContent__legendContentList>li .fm-TooltipContent__value {
+	float: none;
+	margin-left: 0
+}
+
+.fmcard-shop-survey .fmui-card-header-wrapper {
+	border-bottom: none
+}
+
+.fmcard-shop-survey .fmui-slider .fmui-slider-head {
+	right: 30px
+}
+
+.fmcard-shop-survey .fmui-slider .fmui-slider-head .fmui-slider-trigger {
+	width: 16px;
+	height: 2px;
+	background-color: #ececec;
+	content: " ";
+	font-size: 0;
+	opacity: 1
+}
+
+.fmcard-shop-survey .fmui-slider .fmui-slider-head .fmui-slider-trigger.fmui-slider-active {
+	opacity: .6;
+	background-color: #2062e6
+}
+
+.fmcard-shop-survey .month-rank-content .part-top {
+	margin-bottom: 30px
+}
+
+.fmcard-shop-survey .month-rank-content .month-rank .unit {
+	margin-left: 4px
+}
+
+.fmcard-shop-survey .month-rank-content .month-rank .cate-rank {
+	margin-top: 13px;
+	line-height: 18px
+}
+
+.fmcard-shop-survey .month-rank-content .month-rank .cate-rank .fmui-icon {
+	opacity: .6;
+	color: #2062e6;
+	font-size: 14px;
+	vertical-align: middle
+}
+
+.fmcard-shop-survey .month-rank-content .month-rank .cate-rank .fmui-icon.fmui-active {
+	opacity: 1
+}
+
+.fmcard-shop-survey .month-rank-content .month-rank .cate-rank .detail {
+	color: #666;
+	margin-right: 2px
+}
+
+.fmcard-shop-survey .month-rank-content .month-rank .index-change-rate .title {
+	color: #666;
+	margin-right: 10px
+}
+
+.fmcard-shop-survey .trend-container {
+	float: left;
+	width: 46%;
+	margin-top: 6px
+}
+
+.fmcard-shop-survey .trend-container .month-trend {
+	width: 100%;
+	height: 62px
+}
+
+.fmcard-shop-survey .trend-container .cate-name {
+	line-height: 24px;
+	width: 100%;
+	color: #666
+}
+
+.fmcard-shop-survey .main-index {
+	float: left;
+	width: 54%;
+	margin-top: 6px
+}
+
+.fmcard-shop-survey .main-index .index-title {
+	font-size: 14px;
+	line-height: 26px
+}
+
+.fmcard-shop-survey .main-index .index-detail {
+	margin-right: 6px
+}
+
+.fmcard-shop-survey .main-index .index-detail .index-value {
+	font-size: 24px;
+	line-height: 36px
+}
+
+.fmcard-shop-survey .main-index .index-detail .index-value.fontSize16 {
+	font-size: 16px
+}
+
+.fmcard-shop-survey .main-index .index-detail .index-value.fontSize18 {
+	font-size: 18px
+}
+
+.fmcard-shop-survey .progress {
+	margin-top: 10px
+}
+
+.fmcard-shop-survey .progress .progress-header .progress-title {
+	float: left;
+	font-size: 14px;
+	line-height: 26px
+}
+
+.fmcard-shop-survey .progress .progress-header .progress-link {
+	float: right;
+	color: #333
+}
+
+.fmcard-shop-survey .progress .progress-header .progress-link>i {
+	font-weight: 700;
+	margin-left: 5px
+}
+
+.fmcard-shop-survey .progress .progress-header .progress-link:focus,
+.fmcard-shop-survey .progress .progress-header .progress-link:hover {
+	color: #33a0ff
+}
+
+.fmcard-shop-survey .progress .progress-texts,
+.fmcard-shop-survey .progress .setting-target {
+	line-height: 36px;
+	height: 36px
+}
+
+.fmcard-shop-survey .progress .progress-texts .percentage,
+.fmcard-shop-survey .progress .setting-target .percentage {
+	float: left;
+	font-size: 24px
+}
+
+.fmcard-shop-survey .progress .progress-texts .progress-text,
+.fmcard-shop-survey .progress .setting-target .progress-text {
+	float: right;
+	font-size: 24px
+}
+
+.fmcard-shop-survey .progress .progress-texts .progress-text .unit,
+.fmcard-shop-survey .progress .setting-target .progress-text .unit {
+	font-size: 12px
+}
+
+.fmcard-shop-survey .progress .fmui-progress.fmui-progress-sm {
+	margin-top: 8px;
+	height: 8px;
+	width: 100%;
+	overflow: hidden
+}
+
+.fmcard-shop-survey .activity-card .activity-date {
+	line-height: 24px;
+	color: #999
+}
+
+.fmcard-shop-survey .activity-card .activity-status {
+	float: left!important;
+	margin-left: 8px;
+	margin-top: 18px;
+	width: 46px;
+	height: 16px;
+	color: #fff;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 16px
+}
+
+.fmcard-shop-survey .activity-card .activity-status.preheat {
+	background-color: #f3d024
+}
+
+.fmcard-shop-survey .activity-card .activity-status.active {
+	background-color: #ff8441
+}
+
+.fmcard-shop-survey.card-item-rank .fm-Table__root {
+	min-height: 200px
+}
+
+.fmcard-shop-survey.card-item-rank .fm-Table__root .fm-Table__table .fm-Table__th {
+	padding-top: 0
+}
+
+.fmcard-shop-survey.card-item-rank .fm-Table__root .fm-Table__table .GoodsTd {
+	width: 200px
+}
+
+.fmcard-shop-survey.card-item-rank .fm-Table__root .fm-Table__table .GoodsTd .fm-GoodsTd__root .fm-GoodsTd__goodsInfo {
+	width: 142px
+}
+
+.fmcard-shop-survey.card-item-rank .fm-Table__root .fm-Table__table .GoodsTd .fm-GoodsTd__root .fm-GoodsTd__goodsInfo .fm-GoodsTd__goodsName {
+	line-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.fmcard-shop-survey.card-item-rank .fm-Table__root .fm-Table__table .GoodsTd .fm-GoodsTd__root .fm-GoodsTd__goodsInfo .fm-GoodsTd__goodsName a {
+	white-space: nowrap
+}

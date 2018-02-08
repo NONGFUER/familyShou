@@ -311,6 +311,19 @@ a[disabled] {
     cursor: not-allowed;
     color: #dadada
 }
+
+ol,
+ul {
+    list-style: none
+}
+
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
 /* 页面基本样式 */
 .body-wrapper {
     min-height: 100%
@@ -11339,4 +11352,257 @@ a.oneui-affix {
     .fm-outerFrame__content {
         width: 1430px
     }
+}
+
+.fm-link-primary {
+    color: #2062e6;
+    text-decoration: none
+}
+
+.fm-link-primary:focus,
+.fm-link-primary:hover {
+    color: #33a0fe
+}
+
+.fm-link-primary:active {
+    color: #007ae5
+}
+
+.fm-link-second {
+    color: #333;
+    text-decoration: none
+}
+
+.fm-link-second:focus,
+.fm-link-second:hover {
+    color: #33a0fe
+}
+
+.fm-link-second:active {
+    color: #007ae5
+}
+
+.fm-link-third {
+    color: #666;
+    text-decoration: none
+}
+
+.fm-link-third:focus,
+.fm-link-third:hover {
+    color: #33a0fe
+}
+
+.fm-link-third:active {
+    color: #007ae5
+}
+
+.fm-link-fourth {
+    color: #999;
+    text-decoration: none
+}
+
+.fm-link-fourth:focus,
+.fm-link-fourth:hover {
+    color: #33a0fe
+}
+
+.fm-link-fourth:active {
+    color: #007ae5
+}
+
+
+/* 过滤样式 */
+.fm-CommonFilter__filter .common-filter,
+.fm-CommonFilter__filter .common-filter-hasSwitch {
+    margin-bottom: 10px;
+    background: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1)
+}
+
+.fm-CommonFilter__filter .common-filter-hasSwitch>*,
+.fm-CommonFilter__filter .common-filter>* {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 10px
+}
+
+.fm-CommonFilter__filter .common-filter-hasSwitch:after,
+.fm-CommonFilter__filter .common-filter-hasSwitch:before,
+.fm-CommonFilter__filter .common-filter:after,
+.fm-CommonFilter__filter .common-filter:before {
+    content: " ";
+    display: table
+}
+
+.fm-CommonFilter__filter .common-filter-hasSwitch:after,
+.fm-CommonFilter__filter .common-filter:after {
+    clear: both
+}
+
+.fm-CommonFilter__filter .common-filter-hasSwitch .cate-picker,
+.fm-CommonFilter__filter .common-filter .cate-picker {
+    margin-right: 20px
+}
+
+.fm-CommonFilter__filter .legacy-oui-calendar-trigger>input {
+    height: 50px;
+    color: #333
+}
+
+.fm-CommonFilter__filter .filter-logo {
+    display: none;
+    float: left;
+    width: 190px
+}
+
+.fm-CommonFilter__filter .common-filter-hasSwitch {
+    text-align: right;
+    padding-right: 30px
+}
+
+.fm-CommonFilter__filter .fm-Switch__root {
+    padding-left: 30px;
+    font-size: 16px
+}
+
+.fm-CommonFilter__filter .oui-icon.oui-icon-warning-o {
+    float: right;
+    position: relative;
+    top: 2px;
+    color: #999;
+    font-size: 16px
+}
+
+.fm-CommonFilter__filter .common-filter-select.oui-popup {
+    margin-top: 2px
+}
+
+.fm-CommonFilter__filter .common-filter-select.legacy-oui-select-trigger>.legacy-oui-select-label {
+    width: auto
+}
+
+.fm-CommonFilter__filter .common-filter-select.legacy-oui-select-trigger.oui-active,
+.fm-CommonFilter__filter .common-filter-select.legacy-oui-select-trigger:hover {
+    background-color: rgba(0, 0, 0, .06)
+}
+
+.fm-CommonFilter__filter .common-filter-select.legacy-oui-select {
+    width: 102px
+}
+
+.fm-CommonFilter__filter .screen-sticky.screen-sticky-active {
+    height: 50px;
+    line-height: 50px;
+    z-index: 1000;
+    background: #fff
+}
+
+.fm-CommonFilter__filter .screen-sticky.screen-sticky-active .common-filter,
+.fm-CommonFilter__filter .screen-sticky.screen-sticky-active .common-filter-hasSwitch {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15)
+}
+
+.fm-Switch__root {
+    float: left;
+    height: 50px;
+    line-height: 50px
+}
+
+.fm-Switch__item {
+    display: inline-block;
+    position: relative;
+    margin-left: 48px;
+    cursor: pointer
+}
+
+.fm-Switch__item .oui-icon {
+    margin-right: 8px;
+    vertical-align: top
+}
+
+.fm-Switch__item:first-child {
+    margin-left: 0
+}
+
+.fm-Switch__item:hover {
+    color: #2062e6
+}
+
+.fm-Switch__activeItem {
+    cursor: default;
+    color: #2062e6
+}
+
+.fm-Switch__activeItem:before {
+    position: absolute;
+    content: " ";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #2062e6
+}
+
+/* 切换 END */
+
+.fm-Footer__root {
+    color: #666;
+    background: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #d1d7dc;
+    position: relative;
+    z-index: 9
+}
+
+.fm-Footer__root:before {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    background-color: #eef1f6;
+    top: -10px
+}
+
+.fm-Footer__root a {
+    margin: 0 4px
+}
+
+.fm-Footer__content {
+    margin: 0 auto;
+    position: relative
+}
+
+@media (max-width:1480px) {
+    .fm-Footer__content {
+        width: 1210px
+    }
+}
+
+@media (min-width:1480px) and (max-width:1600px) {
+    .fm-Footer__content {
+        width: 1310px
+    }
+}
+
+@media (min-width:1600px) {
+    .fm-Footer__content {
+        width: 1430px
+    }
+}
+
+.fm-Footer__links {
+    padding-right: 200px
+}
+
+.fm-Footer__linkAfterText {
+    margin-left: 0!important
+}
+
+.fm-Footer__gray {
+    color: #999
 }
