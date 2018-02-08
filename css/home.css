@@ -1,0 +1,128 @@
+
+/* 主模块 start */
+.itemModule__root {
+	min-height: 600px
+}
+
+.itemModule__root .itemModule__shopSurveyContainer:after,
+.itemModule__root .itemModule__shopSurveyContainer:before {
+	content: " ";
+	display: table
+}
+
+.itemModule__root .itemModule__shopSurveyContainer:after {
+	clear: both
+}
+
+.itemModule__root .itemModule__shopSurveyContainer .itemModule__liveSurvey {
+	float: left;
+	width: 70%;
+	padding-right: 10px
+}
+
+.itemModule__root .itemModule__shopSurveyContainer .itemModule__shopSurvey {
+	float: left;
+	width: 30%
+}
+
+.itemModule__root .itemModule__operatorFlowTable .fmui-table-th.fmui-table-col-uv {
+	padding-right: 60px
+}
+
+.itemModule__root .itemModule__managerWindow .fmui-card-content,
+.itemModule__root .itemModule__operatorWindow .fmui-card-content {
+	padding-top: 30px
+}
+
+.itemModule__root .itemModule__modernCardHeader .ebase-Switch__root {
+	float: right!important;
+	position: relative
+}
+
+.itemModule__root .itemModule__modernCardHeader .ebase-Switch__root:before {
+	content: " ";
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	background: #e6e6e6;
+	left: 53px;
+	top: 19px
+}
+
+.itemModule__root .itemModule__modernCardHeader .ebase-Switch__item {
+	position: relative;
+	margin-left: 20px
+}
+
+.itemModule__root .itemModule__modernCardHeader .ebase-Switch__activeItem:before {
+	display: none
+}
+
+.itemModule__root .ebase-CommonFilter__filter .ebase-DatePicker__root .ebase-DatePicker__main {
+	font-weight: 700
+}
+
+.itemModule__root .ebase-ModernDatePicker__root .ebase-ModernDatePicker__displayText {
+	min-width: 370px
+}
+
+.itemModule__root .itemModule__topBadPingjiaTitle {
+	padding: 0 0 8px;
+	margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: Microsoft YaHei, SimHei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif
+}
+
+.itemModule__root .itemModule__pingjiaPlaceholder {
+	position: relative;
+	width: 100%;
+	height: 300px
+}
+
+.itemModule__root .itemModule__pingjiaPlaceholder .ebase-Message__content {
+	box-shadow: none
+}
+
+.itemModule__root .itemModule__pingjiaOverview .indexes-trend-1688-index-container {
+	margin-bottom: 0
+}
+
+.itemModule__root .itemModule__pingjiaOverview .indexes-trend-1688-index-container .fmui-indexCell {
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+.itemModule__root .itemModule__pingjiaOverview .indexes-trend-1688-chart-container {
+	height: 266px
+}
+
+.itemModule__root .itemModule__topBadPingjia .tableContainer {
+	padding: 0
+}
+
+.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root {
+	height: 336px
+}
+
+.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root .ebase-Table__table .ebase-Table__th {
+	padding: 8px 0
+}
+
+.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root .ebase-Table__table .GoodsTd {
+	width: 220px
+}
+
+.itemModule__root .itemModule__topBadPingjia .tableContainer .ebase-Table__root .ebase-Table__table .GoodsTd .ebase-GoodsTd__root .ebase-GoodsTd__goodsInfo {
+	width: 162px
+}
+
+.itemModule__yunyingRocket {
+	-webkit-animation-duration: 1s!important;
+	animation-duration: 1s!important;
+	-webkit-animation-delay: 1s!important;
+	animation-delay: 1s!important;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite
+}
+/* 主模块 end */
