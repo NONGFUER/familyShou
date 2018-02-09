@@ -588,3 +588,130 @@
 .fmcard-shop-survey.card-item-rank .fm-Table__root .fm-Table__table .GoodsTd .fm-GoodsTd__root .fm-GoodsTd__goodsInfo .fm-GoodsTd__goodsName a {
 	white-space: nowrap
 }
+
+/* 操作窗口  START */
+.fmcard-operator-core-index {
+	min-height: 514px
+}
+
+.fmcard-operator-core-index.chart .fm-Card__headerWrapper {
+	border-bottom: none
+}
+
+.fmcard-operator-core-index.chart .fm-CardContent__root {
+	padding-bottom: 20px
+}
+
+.fmcard-operator-core-index.table .fm-CardContent__root {
+	padding: 0
+}
+
+.fmcard-operator-core-index .fm-Card__title .fmui-icon {
+	margin-right: 10px
+}
+
+.fmcard-operator-core-index .fmui-checkbox {
+	margin-top: -2px
+}
+
+.fmcard-operator-core-index .fm-IndexTab__tab {
+	overflow: hidden;
+	padding: 20px 8px
+}
+
+.fmcard-operator-core-index .fm-IndexTab__root .fm-IndexTab__tab .fm-IndexCell__root .fm-IndexCell__indexChange {
+	width: auto
+}
+
+.fmcard-operator-core-index .fmui-indexCell {
+	padding: 0;
+	width: 100%
+}
+
+.fmcard-operator-core-index .fmui-indexCell .fmui-indexCell-indexChange {
+	width: 100%;
+	line-height: 22px;
+	height: 22px
+}
+
+.fmcard-operator-core-index .fmui-indexCell .fmui-indexCell-indexChange .fmui-icon.fmui-icon-error.fmui-indexCell-errorIcon {
+	margin-bottom: -2px
+}
+
+.fmcard-operator-core-index .module-chart {
+	height: 450px
+}
+
+.fmcard-operator-core-index .chart-container {
+	position: relative;
+	margin-top: 15px;
+	overflow: hidden
+}
+
+.fmcard-operator-core-index .chart-container .month-value,
+.fmcard-operator-core-index .chart-container .multi-indexes-reset {
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 30px
+}
+
+.fmcard-operator-core-index .chart-container .month-value .selected,
+.fmcard-operator-core-index .chart-container .multi-indexes-reset .selected {
+	margin-right: 8px;
+	z-index: 60;
+	color: #999
+}
+
+.fmcard-operator-core-index .chart-container .activity-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 66px
+}
+
+.fmcard-operator-core-index .chart-container .activity-container .activity-list {
+	position: absolute;
+	top: 66px
+}
+
+.fmcard-operator-core-index .chart-container .activity-container .activity-list .activity {
+	line-height: 22px
+}
+
+.fmcard-operator-core-index .chart-container .activity-container .activity-list .activity .legend {
+	display: inline-block;
+	width: 8px;
+	height: 4px;
+	margin-top: -3px;
+	background-color: #c0cbe3;
+	margin-right: 4px;
+	vertical-align: middle
+}
+
+.fmcard-operator-core-index .chart-container .activity-container.activity-month .activity-list .activity {
+	padding-right: 10px
+}
+
+.fmcard-operator-core-index .chart-container .activity-container.activity-day .activity {
+	position: absolute
+}
+
+.fmcard-operator-core-index .chart-container .activity-container.activity-day .activity .activity-name {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden
+}
+
+.fmcard-operator-core-index .chart-container .activity-container.activity-day .activity .activity-bar {
+	width: 100%;
+	height: 4px;
+	background-color: #c0cbe3
+}
+/* 操作窗口 END */
+.fmui-card-title {
+	font-weight: 400
+}

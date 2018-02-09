@@ -12,7 +12,8 @@
 	<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="./css/fmbase.css">
-	<link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/dist/daterangepicker.min.css" />
 </head>
 <body class="body-wrapper">
     <div class="body-wrapper newyear-activity">
@@ -391,8 +392,8 @@
                                             <div class="fm-ModernDatePicker__displayText ">
                                                 <span class="fm-ModernDatePicker__displayMainText ">
                                                     <i class="fmui-icon fmui-icon-calendar fm-ModernDatePicker__calendarIcon "></i>
-                                                    <span class="fm-ModernDatePicker__content "><!-- react-text: 277 -->日<!-- /react-text -->
-                                                        <span class="fm-ModernDatePicker__rangeText num "><input id="date-range14" size="40" value="（2018-01-28）"></span></span>
+                                                    <span class="fm-ModernDatePicker__content ">日
+                                                        <span class="fm-ModernDatePicker__rangeText num "><input style="height: 40px" id="date-range14" size="40" value="（2018-01-28）"></span></span>
                                                 </span>
                                                 <span class="fm-ModernDatePicker__shortcutSwitch ">
                                                     <i class="fmui-icon fmui-icon-angle-left fm-ModernDatePicker__leftIcon "></i>
@@ -403,9 +404,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="pagesHome__operatorWindow ">
+                            <div class="itemModule__operatorWindow ">
                                     <div id="floor-operator-whole ">
-                                        <div id="operatorCoreIndex " class="alife-dt-card-sycm-operator-core-index chart fmui-card " data-card-id="operatorCoreIndex ">
+                                        <div id="operatorCoreIndex " class="fmcard-operator-core-index chart fmui-card " data-card-id="operatorCoreIndex ">
                                             <div class="fmui-card-header-wrapper ">
                                                 <h4 class="fmui-card-title "><span><i class="fmui-icon fmui-icon-zhengti "></i><span style="margin-left: 10px; ">整体看板</span></span></h4>
                                                 <div class="fmui-card-header "><span class="fmui-pull-right fm-CardSwitch__root switch-chartswitch " data-fm="CardSwitch "><span><span class="fm-CardSwitch__switchName fm-CardSwitch__active ">图表</span><span class="fm-CardSwitch__separator ">|</span></span><span><span class="fm-CardSwitch__switchName ">表格</span></span>
@@ -553,7 +554,7 @@
                                     <div id="floor-flow " class="fmui-card " data-card-id="floor-flow ">
                                         <div class="fmui-card-header-wrapper ">
                                             <h4 class="fmui-card-title "><span><i class="fmui-icon fmui-icon-liuliangIcon "></i><span style="margin-left: 10px; ">流量看板</span></span></h4>
-                                            <div class="pagesHome__modernCardHeader fmui-card-header ">
+                                            <div class="itemModule__modernCardHeader fmui-card-header ">
                                                 <div class="fmui-pull-right fmui-card-link " data-fm="CardLink ">
                                                     <a href="https://sycm.taobao.com/bda/flow/flowsummary/flow_summary.htm " target="_blank " class="fm-link-second ">
                                                         <!-- react-text: 395 -->流量分析
@@ -569,7 +570,7 @@
                                     <div id="floor-conversion " class="fmui-card " data-card-id="floor-conversion " style="min-height: 691px; ">
                                         <div class="fmui-card-header-wrapper ">
                                             <h4 class="fmui-card-title "><span><i class="fmui-icon fmui-icon-zhuanhua "></i><span style="margin-left: 10px; ">转化看板</span></span></h4>
-                                            <div class="pagesHome__modernCardHeader fmui-card-header ">
+                                            <div class="itemModule__modernCardHeader fmui-card-header ">
                                                 <div class="fmui-pull-right fmui-card-link " data-fm="CardLink ">
                                                     <a href="https://sycm.taobao.com/bda/items/itemanaly/item_summary.htm " target="_blank " class="fm-link-second ">
                                                         <!-- react-text: 413 -->商品分析
@@ -653,5 +654,10 @@
             </div>
         </div>
     </div>
+    <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="./js/dist/moment.min.js" type="text/javascript"></script>
+	<script src="./js/dist/jquery.daterangepicker.js"></script>
+	<script src="./js/common/demo.js" id="femTrackerSdk"></script>
+    <script src="./js/common/index.js" id="femTrackerSdk"></script>
 </body>
 </html>
